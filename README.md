@@ -28,3 +28,6 @@ It can either be about something you love or about a product/item to sell. Use t
 **HTML and CSS Resources**
 - https://www.w3schools.com/css/default.asp
 - https://www.w3schools.com/html/default.asp
+
+**Extra**
+- If you can or feel brave, push your code to this GitHub repo and create a PR for review
