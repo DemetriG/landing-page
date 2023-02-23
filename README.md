@@ -1,5 +1,5 @@
 # Landing Page
-The aim is to create a landing page using HTML, CSS and then intriducing PHP and Javascript. You can use any colours / theme you like but your layout should follow this conventional layout. 
+The aim is to create a landing page using HTML, CSS and then later, introducing PHP and Javascript. You can use any colours / theme you like but your layout should follow this conventional layout. 
 It can either be about something you love or about a product/item to sell. Use this opportunity to get creative! 🤩
 
 Some common landing pages ideas could be
