@@ -1,6 +1,15 @@
 # Landing Page
-The aim is to create a landing page using HTML and CSS. You can use any colours / theme you like but your layout should follow this conventional layout. 
+The aim is to create a landing page using HTML, CSS and then intriducing PHP and Javascript. You can use any colours / theme you like but your layout should follow this conventional layout. 
 It can either be about something you love or about a product/item to sell. Use this opportunity to get creative! 🤩
+
+Some common landing pages ideas could be
+- Cars
+- Fitness
+- Personal Portfolio
+- Sports team
+- Music
+- Retro gaming
+- Something else
 
 **Layout**
 
@@ -14,7 +23,9 @@ It can either be about something you love or about a product/item to sell. Use t
 - 1 x Image
 
 ### Follow these steps
-- Create an index.html file somewhere on your machine
+- Fork this repo to your own account, and invite johnhalsey.co.uk as a contributor
+- Clone down the forked repo onto your machine somewhere (Documents/Sites is pretty common)
+- Create an index.html in the repo folder
 - add the `<html></html>` tags
 - add a `<head></head>` section within the html tags
 - add a `<body></body>` section underneath the head
