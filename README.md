@@ -22,9 +22,12 @@ Some common landing pages ideas could be
 - 1 x Logo
 - 1 x Image
 
+## Phase 1
+
 ### Follow these steps
 - Fork this repo to your own account, and invite johnhalsey.co.uk as a contributor
 - Clone down the forked repo onto your machine somewhere (Documents/Sites is pretty common)
+- Create a new branch to work on (you can use tthe github desktop, or command line)
 - Create an index.html in the repo folder
 - add the `<html></html>` tags
 - add a `<head></head>` section within the html tags
@@ -35,10 +38,15 @@ Some common landing pages ideas could be
 - add a `content` or `section` area that will be the main body of your landing page
 - add a `footer` underneath everything with a couple of links for "contact us" an "careers" (they dont have to go anywhere)
 - add a `sidebar` section to go next to the main content on either the left or right had side
+- In the content area, include a contact form with the following fileds (the form doesn't need to work yet)
+    - A text input field
+    - A checkbox
+    - at least 2 radio buttons
+    - a dropdown filed with at least 2 options
+    - Submit button
+- Create a Pull Request back into your main branch for review.
 
 **HTML and CSS Resources**
 - https://www.w3schools.com/css/default.asp
 - https://www.w3schools.com/html/default.asp
 
-**Extra**
-- If you can or feel brave, push your code to this GitHub repo and create a PR for review
