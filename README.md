@@ -50,3 +50,8 @@ Some common landing pages ideas could be
 - https://www.w3schools.com/css/default.asp
 - https://www.w3schools.com/html/default.asp
 
+## Phase 2 (or 3,4)
+
+### PHP Local env set up
+You'll need a local PHP envrionment installed in order to develop and test and PHP code. I prefer for [Laravel Valet](https://laravel.com/docs/10.x/valet) for ease.
+- [Read through and follow the guide on this post](https://dev.to/ibrarturi/mac-m1-setup-for-local-development-with-laravel-valet-2lmk) to install Valet locally (on a Mac M1)
