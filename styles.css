@@ -1,0 +1,35 @@
+* {
+    box-sizing: border-box;
+}
+
+.logo {
+    width: 100px;
+    height: 100px;
+}
+
+body, html {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    background: aquamarine;
+}
+
+ul {
+    background: coral;
+    padding-left: 0px !important;
+}
+
+li {
+    display: inline-block;
+    color: white;
+    padding: 14px 16px; /* cant get rid of left padding from start of nav bar */
+}
+
+li:hover {
+    background-color: darkorange;
+    cursor: pointer;
+}
+
+
