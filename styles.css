@@ -1,5 +1,6 @@
 * {
     box-sizing: border-box;
+    margin: 0;
 }
 
 .logo {
@@ -18,7 +19,7 @@ body {
 
 ul {
     background: coral;
-    padding-left: 0px !important;
+    padding-left: 0 !important;
 }
 
 li {
@@ -32,4 +33,37 @@ li:hover {
     cursor: pointer;
 }
 
+/* The sidebar menu */
+.sidenav {
+    height: 100%; /* Full-height: remove this if you want "auto" height */
+    width: 550px; /* Set the width of the sidebar */
+    position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+    z-index: 1; /* Stay on top */
+    top: 0; /* Stay at the top */
+    right: 0;
+    background-color: lightcyan;
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding: 20px;
+    margin: 10px;
+}
 
+iframe {
+    width: 500px;
+    height: 315px;
+    align-items: center;
+}
+
+h1 {
+    text-align: center;
+}
+
+.blog-post {
+    border: blueviolet 3px solid;
+    margin: 10px;
+}
+
+#content{
+    border: 1px solid red;
+    width: calc(100% - 620px); /* Content is the main part of my site, the width is 100%-the side bar*/
+    margin: 30px
+}
