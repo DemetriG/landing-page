@@ -1,6 +1,7 @@
 * {
     box-sizing: border-box;
     margin: 0;
+    font-family: sans-serif;
 }
 
 .logo {
@@ -49,7 +50,7 @@ li:hover {
 
 iframe {
     width: 500px;
-    height: 315px;
+    height: 300px;
     align-items: center;
 }
 
@@ -60,10 +61,33 @@ h1 {
 .blog-post {
     border: blueviolet 3px solid;
     margin: 10px;
+    padding: 10px;
 }
 
-#content{
+.blog-post p {
+    padding-bottom: 10px;
+}
+
+#content {
     border: 1px solid red;
     width: calc(100% - 620px); /* Content is the main part of my site, the width is 100%-the side bar*/
     margin: 30px
+}
+
+.travel_form {
+    background: lightcoral;
+    padding: 10px;
+}
+
+h2 {
+    padding-bottom: 10px;
+}
+
+.blog-post img {
+    height: 100px;
+    width: auto;
+}
+
+.travel_form p {
+    margin-bottom: 10px;
 }

@@ -19,8 +19,17 @@
 
         <div class="blog-post">
             <h2>Summer EDM music festivals</h2>
+            <p>I spent this year's August bank-holiday in a muddy field with tens of
+            thousands fellow ravers.</p>
+
+            <img src="https://www.thedjrevolution.com/wp-content/uploads/elementor/thumbs/Main-stage-evening-shot-at-Creamfields-Festival-q2t4hyyl5dlf98lt5ubta3gux124nbitebaq49ha3i.jpg" alt="crowd at festival">
         </div>
-    </div>
+
+        <div class="blog-post">
+            <h2>A weekend in Edinburgh</h2>
+            <p>I spent a weekend exploring the stunning city of Edinburgh</p>
+        </div>
+    </DIV>
 
 
     <!-- Side navigation -->
@@ -30,34 +39,48 @@
         <iframe src="https://www.youtube.com/embed/sHDrhPdi_lc"></iframe>
     </div>
 
+    <div class="travel_form">
+        <form>
+            <h2>What type of traveler are you?</h2>
+            <label for="fname">First Name</label><br>
+            <input type="text" id="fname" name="fname">
 
-    <form>
-        <label for="fname">First Name</label>
-        <input type="text" id="fname" name="fname">
+            <!--Radio buttons-->
+            <p>What type of backpacker are you?</p>
+            <input type="radio" id="budget_backpacker" name="travel_type">
+            <label for="budget_backpacker">Budget Backpacker</label><br>
 
-        <!--Radio buttons-->
-        <p>What type of backpacker are you?</p>
-        <input type="radio" id="budget_backpacker" name="travel_type">
-        <label for="budget_backpacker">Budget Backpacker</label><br>
+            <input type="radio" id="average_backpacker" name="travel_type">
+            <label for="average_backpacker">Average Backpacker</label><br>
 
-        <input type="radio" id="average_backpacker" name="travel_type">
-        <label for="average_backpacker">Average Backpacker</label><br>
+            <input type="radio" id="flashpacker" name="travel_type">
+            <label for="flashpacker">Flash Packer</label><br>
 
-        <input type="radio" id="flashpacker" name="travel_type">
-        <label for="flashpacker">Flash Packer</label><br>
+            <!--Check boxes-->
+            <p>Where are you interested in traveling?</p>
+            <input type="checkbox" id="europe" name="travel_destinations">
+            <label for="europe">Europe</label><br>
 
-        <!--Check boxes-->
-        <p>Where are you interested in traveling?</p>
-        <input type="checkbox" id="europe" name="travel_destinations">
-        <label for="europe">Europe</label><br>
+            <input type="checkbox" id="asia" name="travel_destinations">
+            <label for="asia">Asia</label><br>
 
-        <input type="checkbox" id="asia" name="travel_destinations">
-        <label for="asia">Asia</label><br>
+            <input type="checkbox" id="oceania" name="travel_destinations">
+            <label for="oceania">Oceania</label><br>
 
-        <input type="checkbox" id="oceania" name="travel_destinations">
-        <label for="oceania">Oceania</label><br>
-    </form>
+            <!--Drop down menu-->
+            <label>How many people do you like to travel with?</label>
+            <select name="travel_people" id="travel_people">
+                <option>Solo</option>
+                <option>1 person</option>
+                <option>2 people</option>
+                <option>3 people</option>
+            </select>
+            <br>
 
+            <!--Submit button-->
+            <input type="submit">
+        </form>
+    </div>
 
 
 
