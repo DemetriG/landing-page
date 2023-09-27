@@ -67,10 +67,15 @@ h1 {
     background: lightsalmon;
     margin: 10px;
     padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .blog-post p {
     padding-bottom: 10px;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 #content {
@@ -100,20 +105,31 @@ h1 {
     padding-top: 10px;
 }
 
+input[type=text]:focus, input[type=email]:focus, select:focus{
+    outline: 2px solid white;
+    border: 2px solid salmon;
+}
+
 .text-input, .select-input {
     width: 100%;
     border-radius: 5px;
-    border: 1px black solid;
-    padding: 5px;
+    border: 2px salmon solid;
+    padding: 8px;
+    outline: 3px solid lightsalmon;
 }
 
 .radio-label, .check-label{
     padding-right: 20px;
 }
 
-h2, h3 {
+h2, .blog-title {
     padding-bottom: 10px;
     text-align: center;
+}
+
+.blog-title {
+    margin-right: auto;
+    margin-left: auto;
 }
 
 h2 {
@@ -122,6 +138,7 @@ h2 {
 
 h3 {
     font-weight: bold;
+
 }
 
 .blog-post img {
@@ -135,12 +152,14 @@ h3 {
     background: white;
     border-radius: 5px;
     padding: 8px 0;
-    border: 1px black solid;
+    border: 2px salmon solid;
 }
 
 .submit-button:hover {
     cursor: pointer;
-    background: salmon;
+    background: white;
+    outline: 2px solid white;
+    border: 2px solid salmon;
 }
 
 .thin-divider{
@@ -151,6 +170,7 @@ h3 {
     margin-right: auto;
 }
 
-/*.page-title {*/
-/*    padding-top: 10px;*/
-/*}*/
+.form-sections {
+    border-bottom: 4px solid salmon;
+    padding-top: 20px;
+}

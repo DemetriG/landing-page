@@ -17,13 +17,12 @@
 
 
     <div id="content">
-        <h1></h1>
         <h1>Demetri's Destinations</h1>
 
         <h2>Travel Blog</h2>
 
         <div class="blog-post">
-            <h3>Summer EDM music festivals</h3>
+            <h3 class="blog-title">Summer EDM music festivals</h3>
             <div class="thin-divider"></div>
             <p>I spent this year's August bank-holiday in a muddy field with tens of
             thousands fellow ravers.</p>
@@ -31,16 +30,21 @@
             <img src="https://www.thedjrevolution.com/wp-content/uploads/elementor/thumbs/Main-stage-evening-shot-at-Creamfields-Festival-q2t4hyyl5dlf98lt5ubta3gux124nbitebaq49ha3i.jpg" alt="crowd at festival">
         </div>
 
+
         <div class="blog-post">
-            <h3>A weekend in Edinburgh</h3>
+            <h3 class="blog-title">A weekend in Scotland's capital, Edinburgh</h3>
             <div class="thin-divider"></div>
             <p>I spent a weekend exploring the stunning city of Edinburgh</p>
+
+            <img src="https://lp-cms-production.imgix.net/2022-03/royal%20mile.jpg">
         </div>
 
         <div class="blog-post">
-            <h3>Surfing in Cornwall - The BEST British waves</h3>
+            <h3 class="blog-title">Surfing in Cornwall - The BEST British waves</h3>
             <div class="thin-divider"></div>
             <p>I had a fun week with some friends surfing in Cornwall</p>
+
+            <img src="https://blog.laterooms.com/wp-content/uploads/2016/08/Surfing.jpg">
         </div>
 
     </DIV>
@@ -59,40 +63,51 @@
             <h2>What type of traveler are you?</h2>
             <div class="thin-divider"></div>
 
-            <p>What's your first name?</p>
-            <input type="text" id="fname" name="fname" class="text-input" placeholder="First Name">
+            <section role="region" aria-labelledby="personal-info"> <!--not actually too sure what this does-->
+                <h3 class="form-sections">Personal Info</h3>
+                <p>What's your first name?</p>
+                <input type="text" id="fname" name="fname" class="text-input" placeholder="First Name">
 
+<!--                Email-->
+                <p>What's your email address?</p>
+                <label for="email_address"></label>
+                <input type="email" id="email_address" class="text-input" placeholder="Email Address">
 
-            <!--Radio buttons-->
-            <p>What type of backpacker are you?</p>
-            <input type="radio" id="budget_backpacker" name="travel_type">
-            <label for="budget_backpacker" class="radio-label">Budget Backpacker</label>
+            </section>
 
-            <input type="radio" id="average_backpacker" name="travel_type">
-            <label for="average_backpacker" class="radio-label">Average Backpacker</label>
+            <section role="region" aria-labelledby="travel-style">
+                <h3 class="form-sections">Travel Style</h3>
+                <!--Radio buttons-->
+                <p>What type of backpacker are you?</p>
+                <input type="radio" id="budget_backpacker" name="travel_type">
+                <label for="budget_backpacker" class="radio-label">Budget Backpacker</label>
 
-            <input type="radio" id="flashpacker" name="travel_type">
-            <label for="flashpacker" class="radio-label">Flash Packer</label>
+                <input type="radio" id="average_backpacker" name="travel_type">
+                <label for="average_backpacker" class="radio-label">Average Backpacker</label>
 
-            <!--Check boxes-->
-            <p>Where are you interested in traveling?</p>
-            <input type="checkbox" id="europe" name="travel_destinations">
-            <label for="europe" class="check-label">Europe</label>
+                <input type="radio" id="flashpacker" name="travel_type">
+                <label for="flashpacker" class="radio-label">Flash Packer</label>
 
-            <input type="checkbox" id="asia" name="travel_destinations">
-            <label for="asia" class="check-label">Asia</label>
+                <!--Check boxes-->
+                <p>Where are you interested in traveling?</p>
+                <input type="checkbox" id="europe" name="travel_destinations">
+                <label for="europe" class="check-label">Europe</label>
 
-            <input type="checkbox" id="oceania" name="travel_destinations">
-            <label for="oceania" class="check-label">Oceania</label>
+                <input type="checkbox" id="asia" name="travel_destinations">
+                <label for="asia" class="check-label">Asia</label>
 
-            <!--Drop down menu-->
-            <p>How many people do you like to travel with?</p>
-            <select name="travel_people" id="travel_people" class="select-input">
-                <option>Solo</option>
-                <option>1 person</option>
-                <option>2 people</option>
-                <option>3 people</option>
-            </select>
+                <input type="checkbox" id="oceania" name="travel_destinations">
+                <label for="oceania" class="check-label">Oceania</label>
+
+                <!--Drop down menu-->
+                <p>How many people do you like to travel with?</p>
+                <select name="travel_people" id="travel_people" class="select-input">
+                    <option>Solo</option>
+                    <option>1 person</option>
+                    <option>2 people</option>
+                    <option>3 people</option>
+                </select>
+            </section>
             <br>
 
             <!--Submit button-->
