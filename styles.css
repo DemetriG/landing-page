@@ -4,11 +4,6 @@
     font-family: sans-serif;
 }
 
-.logo {
-    width: 100px;
-    height: 100px;
-    display: flex;
-}
 
 body, html {
     height: 100%;
@@ -19,9 +14,26 @@ body {
     background: lightcyan;
 }
 
-ul {
+nav {
     background: coral;
-    padding-left: 0 !important;
+    height: 70px;
+    padding: 5px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
+
+nav img{
+    height: 100%;
+    float: left;
+}
+
+ul{
+    padding-left: 5px !important;
+    float: left;
+    width: 50%;
+    height: 100%;
+    padding-top: 8px;
 }
 
 li {
@@ -29,6 +41,7 @@ li {
     color: white;
     padding: 14px 16px; /* cant get rid of left padding from start of nav bar */
 }
+
 
 li:hover {
     background-color: darkorange;
@@ -80,7 +93,7 @@ h1 {
 
 #content {
     width: calc(100% - 620px); /* Content is the main part of my site, the width is 100%-the side bar*/
-    margin: 30px
+    margin-top: 80px;
 }
 
 .travel_form { /* The background for the form */
@@ -122,6 +135,10 @@ input[type=text]:focus, input[type=email]:focus, select:focus{
     padding-right: 20px;
 }
 
+.travel_form input:checked {
+    background: green;
+}
+
 h2, .blog-title {
     padding-bottom: 10px;
     text-align: center;
@@ -147,7 +164,6 @@ h3 {
 }
 
 .submit-button {
-    margin-top: 20px;
     width: 100%;
     background: white;
     border-radius: 5px;
@@ -170,7 +186,18 @@ h3 {
     margin-right: auto;
 }
 
-.form-sections {
-    border-bottom: 4px solid salmon;
-    padding-top: 20px;
+/*.form-sections {*/
+/*    border-bottom: 4px solid salmon;*/
+/*    padding-top: 20px;*/
+/*}*/
+
+fieldset legend {
+    font-size: 30px;
+    border: 4px solid salmon;
+    padding: 5px;
+}
+
+fieldset {
+    border: 3px solid salmon;
+    margin-top: 20px;
 }
